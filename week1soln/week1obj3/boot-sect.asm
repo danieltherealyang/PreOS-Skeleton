@@ -1,5 +1,6 @@
 ; semicolons indicate comments
-; Goal: Print a message stored at a memory location using a function
+; Goal: Read from disk, load memory, and print data in loaded memory sectors. 
+
 
 [org 0x7c00] ; tells assembler expected loading address of code
 

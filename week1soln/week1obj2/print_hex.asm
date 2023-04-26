@@ -25,7 +25,7 @@ print_hex: ; dx: parameter
     jle set_char ; if letter
 
     set_char:
-	    mov byte [bx], '0' ; reset HEX_OUT to original value (below) 
+	    mov byte [bx], '0' ; reset HEX_OUT to original value (below)
         add [bx], ax ; "shift" '0' to correct char
         jmp hex_loop
   
