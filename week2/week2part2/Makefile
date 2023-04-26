@@ -1,6 +1,6 @@
 ASM=nasm
 QEMU=qemu-system-x86_64
-ELF=elf64
+ELF=elf
 BUILD_DIR=build
 
 all:
