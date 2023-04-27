@@ -8,6 +8,6 @@ To run,
 	- week2part1: 
 		$ ./asm.sh
 		$ ./start.sh
-	- week2part2
+	- week2part2: you may have to edit what ASM, QEMU, and/or ELF are.
 		$ make run
 		$ make clean
