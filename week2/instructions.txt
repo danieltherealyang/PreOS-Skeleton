@@ -1,0 +1,13 @@
+For both parts, replace the "; Todo: ..." with correct code.
+
+Files you will have to complete:
+	- week2part1: print_string_pm.asm, boot-sect.asm
+	- week2part2: print_string_pm.asm, boot-sect.asm
+
+To run,
+	- week2part1: 
+		$ ./asm.sh
+		$ ./start.sh
+	- week2part2: you may have to edit what ASM, QEMU, and/or ELF are.
+		$ make run
+		$ make clean
